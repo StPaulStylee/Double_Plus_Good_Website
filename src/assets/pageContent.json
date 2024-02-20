@@ -1,0 +1,26 @@
+{
+  "about": {
+    "header": "About",
+    "content": "Double Plus Good is a small game development studio run out of a sun room/office/kids play room in Saint Paul, MN. We (aka, I) make games that we want to play in hopes that you'll want to play them too. Our goal is to take a small idea and turn it into something tangible and memorable. Please be sure to sign up for the studio newsletter to stay alert to what’s next at Double Plus Good.",
+    "subscribeHeader": "Subscribe to the Studio Newsletter",
+    "subscribeContent": "Sign up with your email address to receive all of the latest updates from Double Plus Good.",
+    "subscribeInputPlaceHolder": "Email Address",
+    "subscribeButtonText": "Sign Up"
+  },
+  "nav": {
+    "aboutLink": "About",
+    "contactLink": "Contact"
+  },
+  "contact": {
+    "header": "Questions? You do? Cool.",
+    "content": "If you want to reach out to Double Plus Good directly please do not hesitate to do so. You can email us directly at the email provided below or feel out the form provided. Either way. We don't care… it all goes to the same place anyways.",
+    "form": {
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "email": "Email",
+      "subject": "Subject",
+      "message": "Message",
+      "required": "(required)"
+    }
+  }
+}
