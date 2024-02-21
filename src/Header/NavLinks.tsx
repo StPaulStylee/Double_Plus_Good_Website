@@ -9,7 +9,7 @@ export const NavLinks = () => {
   const [isAboutActive, setIsAboutActive] = useState<boolean>(true);
   const [isContactActive, setIsContactActive] = useState<boolean>(false);
   const { pathname } = useLocation();
-  const { aboutLink, contactLink } = pageContent.nav;
+  const { aboutLink, gamesLink } = pageContent.nav;
   useEffect(() => {
     if (pathname.includes("/contact")) {
       setIsAboutActive(false);
@@ -26,7 +26,7 @@ export const NavLinks = () => {
         <Link to="/">{aboutLink}</Link>
       </HeaderNavItem>
       <HeaderNavItem $active={isContactActive}>
-        <Link to="/contact">{contactLink}</Link>
+        <Link to="/games">{gamesLink}</Link>
       </HeaderNavItem>
       <HeaderNavItem>
         <a

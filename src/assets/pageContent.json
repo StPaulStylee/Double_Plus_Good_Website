@@ -9,7 +9,8 @@
   },
   "nav": {
     "aboutLink": "About",
-    "contactLink": "Contact"
+    "contactLink": "Contact",
+    "gamesLink": "Games"
   },
   "contact": {
     "header": "Questions? You do? Cool.",
@@ -21,6 +22,14 @@
       "subject": "Subject",
       "message": "Message",
       "required": "(required)"
+    }
+  },
+  "games": {
+    "header": "Our Games",
+    "content": "These are links to all of our games. Currently they're all host by Itch and are available free to play!",
+    "carnivalShooter": {
+      "title": "Carnival Shooter",
+      "description": "A simple shooter where you shoot the targets as they pop up. Each round takes one minute. What's your high score?"
     }
   }
 }
