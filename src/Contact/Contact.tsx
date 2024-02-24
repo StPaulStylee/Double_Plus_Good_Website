@@ -11,7 +11,7 @@ import pageContent from "../assets/pageContent.json";
 import { ContactForm } from "./Form";
 
 export const Contact = () => {
-  const { header, content, form } = pageContent.contact;
+  const { header, content } = pageContent.contact;
   return (
     <PageSection>
       <PageSectionHeaderContainer>

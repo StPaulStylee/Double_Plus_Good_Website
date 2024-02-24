@@ -7,17 +7,17 @@ import pageContent from "../assets/pageContent.json";
 
 export const NavLinks = () => {
   const [isAboutActive, setIsAboutActive] = useState<boolean>(true);
-  const [isContactActive, setIsContactActive] = useState<boolean>(false);
+  const [isGamesActive, setIsGamesActive] = useState<boolean>(false);
   const { pathname } = useLocation();
   const { aboutLink, gamesLink } = pageContent.nav;
   useEffect(() => {
-    if (pathname.includes("/contact")) {
+    if (pathname.includes("/games")) {
       setIsAboutActive(false);
-      setIsContactActive(true);
+      setIsGamesActive(true);
       return;
     }
     setIsAboutActive(true);
-    setIsContactActive(false);
+    setIsGamesActive(false);
   }, [pathname]);
 
   return (
@@ -25,7 +25,7 @@ export const NavLinks = () => {
       <HeaderNavItem $active={isAboutActive}>
         <Link to="/">{aboutLink}</Link>
       </HeaderNavItem>
-      <HeaderNavItem $active={isContactActive}>
+      <HeaderNavItem $active={isGamesActive}>
         <Link to="/games">{gamesLink}</Link>
       </HeaderNavItem>
       <HeaderNavItem>
