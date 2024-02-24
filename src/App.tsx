@@ -1,13 +1,8 @@
-import React from "react";
-import logo from "./logo.svg";
 import "./App.css";
 import { Header } from "./Header/Header";
-import { Contact } from "./Contact/Contact";
 import { About } from "./About/About";
 import {
-  BrowserRouter,
   Route,
-  Link,
   createBrowserRouter,
   createRoutesFromElements,
   Outlet,

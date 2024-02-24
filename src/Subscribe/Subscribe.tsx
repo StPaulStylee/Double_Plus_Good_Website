@@ -1,5 +1,4 @@
 import MailchimpSubscribe from "react-mailchimp-subscribe";
-import pageContent from "../assets/pageContent.json";
 import { SubscribeForm } from "./SubscribeForm";
 export const Subscribe = () => {
   const uValue = "59aabe07cf1f261c232ff68dc";
