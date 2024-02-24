@@ -5,6 +5,10 @@ export const PageSection = styled.section`
   padding: 2.25em 0;
 `;
 
+export const SiteContainer = styled.div`
+  flex-grow: 1;
+`;
+
 export const PageSectionHeaderContainer = styled.div`
   display: flex;
   flex-basis: 40%;

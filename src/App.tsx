@@ -10,6 +10,7 @@ import {
 } from "react-router-dom";
 import { Footer } from "./Footer/Footer";
 import { Games } from "./Games/Games";
+import { SiteContainer } from "./shared.styles";
 function App() {
   const router = createBrowserRouter(
     createRoutesFromElements(
@@ -32,7 +33,9 @@ const Root = () => {
     <>
       <Header />
       <>
-        <Outlet />
+        <SiteContainer>
+          <Outlet />
+        </SiteContainer>
       </>
       <Footer />
     </>
