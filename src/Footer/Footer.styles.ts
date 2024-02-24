@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const FooterContainer = styled.footer`
   align-items: center;
-  bottom: 0 
+  bottom: 0;
   display: flex;
   justify-content: space-between;
   padding-top: 1.75em;

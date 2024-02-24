@@ -11,7 +11,7 @@ import { Email } from "../shared.styles";
 
 export const Footer = () => {
   return (
-    <FooterContainer>
+    <FooterContainer className="farts">
       <FooterItem>
         <Email href="mailto:inquiry@doubleplusgood.com">
           inquiry@doubleplusgood.com
