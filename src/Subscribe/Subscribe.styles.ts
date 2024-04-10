@@ -5,6 +5,12 @@ export const SubscribeInputContainer = styled.form`
   gap: 1em;
   justify-content: center;
   margin: 1rem 0;
+  @media screen and (max-width: 605px) {
+    align-items: center;
+  }
+  @media screen and (max-width: 490px) {
+    flex-direction: column;
+  }
 `;
 
 export const SubscribeInput = styled.input`
@@ -13,6 +19,12 @@ export const SubscribeInput = styled.input`
   font-size: 16px;
   padding: 1.4rem 2rem;
   line-height: 1.2rem;
+  @media screen and (max-width: 605px) {
+    width: 100%;
+  }
+  @media screen and (max-width: 490px) {
+    padding: 1.4rem 1rem;
+  }
 `;
 
 export const SubmitButton = styled.button<{ $enablePadding?: boolean }>`
@@ -29,6 +41,9 @@ export const SubmitButton = styled.button<{ $enablePadding?: boolean }>`
     css`
       padding: 1.4rem 2rem;
     `}
+  @media screen and (max-width: 605px) {
+    height: 72px;
+  }
 `;
 
 export const StatusContainer = styled.div`

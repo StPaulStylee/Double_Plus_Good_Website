@@ -3,6 +3,9 @@ import styled, { css } from "styled-components";
 export const PageSection = styled.section`
   display: flex;
   padding: 2.25em 0;
+  @media screen and (max-width: 862px) {
+    flex-direction: column;
+  }
 `;
 
 export const SiteContainer = styled.div`

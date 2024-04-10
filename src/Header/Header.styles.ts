@@ -9,6 +9,9 @@ export const HeaderNavigationContainer = styled.nav`
 export const LogoContainer = styled.div`
   max-width: 13em;
   height: auto;
+  @media screen and (max-width: 510px) {
+    max-width: 9em;
+  }
 `;
 
 export const NavLinksContainer = styled.div`
@@ -17,6 +20,9 @@ export const NavLinksContainer = styled.div`
   flex-basis: 50%;
   gap: 1.25em;
   justify-content: flex-end;
+  @media screen and (max-width: 510px) {
+    gap: 0.75em;
+  }
 `;
 
 export const HeaderNavItem = styled.div<{ $active?: boolean }>`
@@ -31,5 +37,8 @@ export const HeaderNavItem = styled.div<{ $active?: boolean }>`
         background-size: 1px 1px;
         background-position: 0 100%;
       `}
+    @media screen and (max-width: 415px) {
+      font-size: 12px;
+    }
   }
 `;

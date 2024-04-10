@@ -6,6 +6,9 @@ export const FooterContainer = styled.footer`
   display: flex;
   justify-content: space-between;
   padding-top: 1.75em;
+  @media screen and (max-width: 475px) {
+    flex-direction: column;
+  }
 `;
 
 export const FooterBannerContainer = styled.div`
@@ -22,4 +25,15 @@ export const FooterSocialsContainer = styled.div`
 
 export const FooterItem = styled.div`
   flex-basis: 33%;
+  @media screen and (max-width: 900px) {
+    flex-basis: 25%;
+  }
+  @media screen and (max-width: 640px) {
+    flex-basis: 20%;
+  }
+  a {
+    @media screen and (max-width: 670px) {
+      font-size: 14px;
+    }
+  }
 `;
