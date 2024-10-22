@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/Double_Plus_Good_Website/static/css/main.e009fa12.css",
-    "main.js": "/Double_Plus_Good_Website/static/js/main.78fd43c3.js",
-    "static/js/787.0ea57f53.chunk.js": "/Double_Plus_Good_Website/static/js/787.0ea57f53.chunk.js",
-    "static/media/CarnivalShooter_Title.png": "/Double_Plus_Good_Website/static/media/CarnivalShooter_Title.f76a39f10d140d94242b.png",
-    "static/media/Poppins-Light.ttf": "/Double_Plus_Good_Website/static/media/Poppins-Light.7641a0f76ca9ef6c252c.ttf",
-    "static/media/Acumin_Pro_Medium.otf": "/Double_Plus_Good_Website/static/media/Acumin_Pro_Medium.5e59ac0d09454bced41b.otf",
-    "static/media/dblplusgoodLogo.png": "/Double_Plus_Good_Website/static/media/dblplusgoodLogo.d7e237921b0c87ab73b4.png",
-    "static/media/instagram-logo.svg": "/Double_Plus_Good_Website/static/media/instagram-logo.c33e7fc4380153f070cf98760a118e6e.svg",
-    "index.html": "/Double_Plus_Good_Website/index.html",
-    "static/media/x-logo.svg": "/Double_Plus_Good_Website/static/media/x-logo.9c647e795340cda70b20d77d88b72bd4.svg",
-    "main.e009fa12.css.map": "/Double_Plus_Good_Website/static/css/main.e009fa12.css.map",
-    "main.78fd43c3.js.map": "/Double_Plus_Good_Website/static/js/main.78fd43c3.js.map",
-    "787.0ea57f53.chunk.js.map": "/Double_Plus_Good_Website/static/js/787.0ea57f53.chunk.js.map"
+    "main.css": "/static/css/main.eb2a3fad.css",
+    "main.js": "/static/js/main.1e30f2d6.js",
+    "static/js/787.0ea57f53.chunk.js": "/static/js/787.0ea57f53.chunk.js",
+    "static/media/CarnivalShooter_Title.png": "/static/media/CarnivalShooter_Title.f76a39f10d140d94242b.png",
+    "static/media/Poppins-Light.ttf": "/static/media/Poppins-Light.7641a0f76ca9ef6c252c.ttf",
+    "static/media/Acumin_Pro_Medium.otf": "/static/media/Acumin_Pro_Medium.5e59ac0d09454bced41b.otf",
+    "static/media/dblplusgoodLogo.png": "/static/media/dblplusgoodLogo.d7e237921b0c87ab73b4.png",
+    "static/media/instagram-logo.svg": "/static/media/instagram-logo.c33e7fc4380153f070cf98760a118e6e.svg",
+    "index.html": "/index.html",
+    "static/media/x-logo.svg": "/static/media/x-logo.9c647e795340cda70b20d77d88b72bd4.svg",
+    "main.eb2a3fad.css.map": "/static/css/main.eb2a3fad.css.map",
+    "main.1e30f2d6.js.map": "/static/js/main.1e30f2d6.js.map",
+    "787.0ea57f53.chunk.js.map": "/static/js/787.0ea57f53.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e009fa12.css",
-    "static/js/main.78fd43c3.js"
+    "static/css/main.eb2a3fad.css",
+    "static/js/main.1e30f2d6.js"
   ]
 }
