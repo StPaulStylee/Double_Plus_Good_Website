@@ -1,7 +1,7 @@
 {
   "name": "double-plus-good-website",
   "version": "0.1.0",
-  "homepage": "https://StPaulStylee.github.io/Double_Plus_Good_Website",
+  "homepage": "https://StPaulStylee.github.io",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
