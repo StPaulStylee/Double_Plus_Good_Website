@@ -1,9 +1,7 @@
 import MailchimpSubscribe from "react-mailchimp-subscribe";
 import { SubscribeForm } from "./SubscribeForm";
 export const Subscribe = () => {
-  const uValue = "59aabe07cf1f261c232ff68dc";
-  const idValue = "6600669443";
-  const postUrl = `https://gmail.us21.list-manage.com/subscribe/post?u=${uValue}&id=${idValue}`;
+  const postUrl = `https://gmail.us21.list-manage.com/subscribe/post?u=59aabe07cf1f261c232ff68dc&id=6600669443&f_id=00b586e6f0`;
 
   return (
     <MailchimpSubscribe
